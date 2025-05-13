@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPKingdom Store</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>RPKingdom Store</h1>
+    <p>Get amazing perks for your Minecraft adventure!</p>
+  </header>
+
+  <main>
+    <section id="crate-keys">
+      <h2>🚀 Crate Keys</h2>
+      <div class="products-grid"></div>
+    </section>
+
+    <section id="ranks">
+      <h2>💫 Ranks</h2>
+      <div class="products-grid"></div>
+    </section>
+
+    <section id="order-form">
+      <h2>Place Your Order</h2>
+      <div class="cart-summary">
+        <h3>Selected Items:</h3>
+        <div id="selected-items"></div>
+        <div class="total">Total: ₹<span id="total-amount">0</span></div>
+      </div>
+      <form id="checkout-form">
+        <input type="text" id="minecraft-username" placeholder="Minecraft Username" required>
+        <button type="submit">Submit Order</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="notification"></div>
+  <script src="script.js"></script>
+</body>
+</html>
