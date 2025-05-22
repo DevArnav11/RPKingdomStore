@@ -71,6 +71,18 @@ section {
   margin: 0.5rem 0;
 }
 
+.product-card .description {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin: 0.5rem 0;
+}
+
+.product-card .description {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin: 0.5rem 0;
+}
+
 .discount {
   color: #ff4444;
   font-size: 0.9rem;
